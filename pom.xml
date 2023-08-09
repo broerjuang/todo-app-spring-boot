@@ -17,6 +17,13 @@
 	<properties>
 		<java.version>17</java.version>
 	</properties>
+	<repositories>
+		<repository>
+			<id>clojars</id>
+			<name>Clojars Repository</name>
+			<url>https://clojars.org/repo/</url>
+		</repository>
+	</repositories>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -61,10 +68,23 @@
 			<version>1.9.1</version>
 		</dependency>
 
+
 		<dependency>
 			<groupId>org.msync</groupId>
 			<artifactId>spring-boost-classic</artifactId>
-			<version>0.1.0</version>
+			<version>0.1.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>compojure</groupId>
+			<artifactId>compojure</artifactId>
+			<version>1.7.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.clojure</groupId>
+			<artifactId>clojure</artifactId>
+			<version>1.12.0-alpha4</version>
 		</dependency>
 
 		<dependency>

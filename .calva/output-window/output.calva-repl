@@ -1,0 +1,12 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; Reading port file: file:///Users/mbp/Desktop/experiment/ToDo-App/.nrepl-port ...
+; No nrepl port file found.
+; Hooking up nREPL sessions ...
+; nREPL connection failed: Error: connect ECONNREFUSED 127.0.0.1:8190
+; Failed connecting.
